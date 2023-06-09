@@ -1,0 +1,116 @@
+.sanpham{
+    overflow:  hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+.sanpham_link{
+    display: flex;
+    text-decoration: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    color: rgb(0, 0, 0);
+}
+.sanpham_image{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 10rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(216, 216, 216);
+}
+.sanpham_name{
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 500;
+    margin-left: 2rem;
+    max-width: 400px;
+}
+.sanpham_name .product-label{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.sanpham_name .product-label .sale{
+    background-color: #fff;
+    border-color: #D10024;
+    color: #D10024;
+    border: 1px solid;
+    padding: 5px 10px 5px 10px;
+    height: 40px;
+}
+.sanpham_name .product-label .new{
+    background-color: #D10024;
+    background-color: #D10024;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+.sanpham_name h2{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 1.4rem;
+    margin: 0px 0px 0.8rem;
+}
+.sanpham_price{
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+}
+.sanpham_price .product-price{
+    color: #D10024;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.sanpham_price .product-old-price{
+    font-size: 70%;
+    font-weight: 400;
+    color: #8D99AE;
+}
+.sanpham_price .xoasanpham{
+    color: aqua;
+}
+.section .container .giohang{
+    width: 100%;
+    background-color: rgb(247, 247, 249);
+    /* margin-left: 20%; */
+    margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+    .sanpham{
+        margin: 2rem;
+        height: 120px;
+    }
+    .sanpham_ct{
+        display: flex;
+        height: 115px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .sanpham_name{
+        display: flex         ;
+    }
+    .sanpham_link{
+        display: flex;
+        height: 100px;
+    }
+    .sanpham_image{
+        height: 100px;
+        width: 100px;
+    }
+    .section .container .giohang{
+        width: 80%;
+        
+    }
+    .sanpham_price{
+        text-align: right;
+    }
+}

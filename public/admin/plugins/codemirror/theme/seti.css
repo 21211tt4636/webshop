@@ -1,0 +1,15 @@
+:426	 120	1310	AU	Triggering AU detection through DetectNow API
+2022-11-08	13:00:42:426	 120	1310	AU	Can not perform non-interactive scan if AU is interactive-only
+2022-11-08	13:00:42:426	 120	1310	AU	AU finished delayed initialization
+2022-11-08	13:00:47:424	 120	1258	Report	CWERReporter finishing event handling. (00000000)
+2022-11-08	13:21:07:329	 120	15f4	DnldMgr	BITS job {9BFA426D-4CCB-425E-A49C-78F431E44DE7} completed successfully
+2022-11-08	13:21:07:363	 120	15f4	Misc	Validating signature for C:\Windows\SoftwareDistribution\Download\82ca7805c936f872a6389da6246448f2\45d7b8e98e22f939ed0083fe31204caa9a72fa76 with dwProvFlags 0x00000080:
+2022-11-08	13:21:07:418	 120	15f4	Misc	 Microsoft signed: No
+2022-11-08	13:21:07:418	 120	15f4	Misc	WARNING: Digital Signatures on file C:\Windows\SoftwareDistribution\Download\82ca7805c936f872a6389da6246448f2\45d7b8e98e22f939ed0083fe31204caa9a72fa76 are not trusted: Error 0x800b0109
+2022-11-08	13:21:07:418	 120	15f4	DnldMgr	WARNING: VerifyFileTrust on file C:\Windows\SoftwareDistribution\Download\82ca7805c936f872a6389da6246448f2\45d7b8e98e22f939ed0083fe31204caa9a72fa76 failed with hr = 800b0109.
+2022-11-08	13:21:07:420	 120	15f4	DnldMgr	WARNING: File failed postprocessing, error = 800b0109
+2022-11-08	13:21:07:420	 120	15f4	DnldMgr	Failed file: URL = 'http://download.windowsupdate.com/c/msdownload/update/software/defu/2021/08/mpsigstub_45d7b8e98e22f939ed0083fe31204caa9a72fa76.exe', Local path = 'C:\Windows\SoftwareDistribution\Download\82ca7805c936f872a6389da6246448f2\45d7b8e98e22f939ed0083fe31204caa9a72fa76'
+2022-11-08	13:21:07:422	 120	15f4	DnldMgr	Error 0x800b0109 occurred while downloading update; notifying dependent calls.
+2022-11-08	13:21:07:445	2032	1134	COMAPI	>>--  RESUMED  -- COMAPI: Download [ClientId = Microsoft Security Essentials (EDB4FA23-53B8-4AFA-8C5D-99752CCA7094)]
+2022-11-08	13:21:07:445	2032	1134	COMAPI	  - Download call complete (succeeded = 0, succeeded with errors = 0, failed = 1, unaccounted = 0)
+2022-

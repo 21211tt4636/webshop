@@ -1,0 +1,20 @@
+ 120	16a4	Agent	  * Criteria = "(IsInstalled = 0 and IsHidden = 0 and CategoryIDs contains '6b9e8b26-8f50-44b9-94c6-7846084383ec' and CategoryIDs contains 'e0789628-ce08-4437-be74-2495b842f43b')"
+2022-11-08	13:28:14:937	 120	16a4	Agent	  * ServiceID = {7971F918-A847-4430-9279-4A52D1EFE18D} Third party service
+2022-11-08	13:28:14:937	 120	16a4	Agent	  * Search Scope = {Machine}
+2022-11-08	13:28:14:944	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\wuredir.cab with dwProvFlags 0x00000080:
+2022-11-08	13:28:14:946	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:14:952	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\TMP284E.tmp with dwProvFlags 0x00000080:
+2022-11-08	13:28:14:956	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:14:958	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\v6-win7sp1-wuredir.cab with dwProvFlags 0x00000080:
+2022-11-08	13:28:14:959	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:222	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\v6-win7sp1-wuredir.cab with dwProvFlags 0x00000080:
+2022-11-08	13:28:16:226	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:245	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\wuredir.cab with dwProvFlags 0x00000080:
+2022-11-08	13:28:16:249	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:262	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\TMP2D5E.tmp with dwProvFlags 0x00000080:
+2022-11-08	13:28:16:266	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:272	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\wuredir.cab with dwProvFlags 0x00000080:
+2022-11-08	13:28:16:275	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:283	 120	16a4	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\TMP2D7E.tmp with dwProvFlags 0x00000080:
+2022-11-08	13:28:16:286	 120	16a4	Misc	 Microsoft signed: NA
+2022-11-08	13:28:16:298	 120	16a4	Agent	Checking for updated auth cab for s

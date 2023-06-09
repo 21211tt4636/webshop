@@ -1,0 +1,19 @@
+e Install} 11:00:46.664
+     inf:      Opened PNF: 'C:\Windows\INF\usbstor.inf' ([strings.0409])
+     inf:      Opened PNF: 'C:\Windows\INF\usbstor.inf' ([strings.0409])
+     dvi:      {DIF_ALLOW_INSTALL} 11:00:46.688
+     dvi:           No class installer for 'USB Mass Storage Device'
+     dvi:           No CoInstallers found
+     dvi:           Default installer: Enter 11:00:46.690
+     dvi:           Default installer: Exit
+     dvi:      {DIF_ALLOW_INSTALL - exit(0xe000020e)} 11:00:46.692
+     ndv:      Installing files...
+     dvi:      {DIF_INSTALLDEVICEFILES} 11:00:46.703
+     dvi:           No class installer for 'USB Mass Storage Device'
+     dvi:           Default installer: Enter 11:00:46.704
+     dvi:                {Install FILES}
+     inf:                     Opened PNF: 'c:\windows\system32\driverstore\filerepository\usbstor.inf_amd64_neutral_0725c2806a159a9d\usbstor.inf' ([strings.0409])
+     inf:                     {Install Inf Section [USBSTOR_BULK.NT]}
+     inf:                          CopyFiles=USBSTOR.CopyList  (usbstor.inf line 173)
+     flq:                          CopyFiles from an inbox inf.
+     cpy:                          Open PnpLockdownPolicy: Err=2. This is OK. Use LockDownPoli

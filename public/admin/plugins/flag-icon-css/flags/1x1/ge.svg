@@ -1,0 +1,13 @@
+e: adapter NOT SMAC
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: no need to modify registry: 0x00000000
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| E2: ReadAdapterBridgeFlag: bridge param key doesn't exist: 'SYSTEM\CurrentControlSet\Services\VMnetBridge\Parameters\Adapters\{9720DCA6-B07B-4BF3-8B49-D324D13A59E2}'
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: adapter NOT GARP
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: adapter NOT SMAC
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: no need to modify registry: 0x00000000
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| E2: ReadAdapterBridgeFlag: bridge param key doesn't exist: 'SYSTEM\CurrentControlSet\Services\VMnetBridge\Parameters\Adapters\{78032B7E-4968-42D3-9F37-287EA86C0AAA}'
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: adapter NOT GARP
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: adapter NOT SMAC
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: no need to modify registry: 0x00000000
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| E2: ReadAdapterBridgeFlag: bridge param key doesn't exist: 'SYSTEM\CurrentControlSet\Services\VMnetBridge\Parameters\Adapters\{0886852F-B0A6-4459-A584-3683F60CC850}'
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: UpdateTeamingState: adapter NOT GARP
+2022-11-04T12:38:52.198+07:00| inst-build-6661328| I2: U

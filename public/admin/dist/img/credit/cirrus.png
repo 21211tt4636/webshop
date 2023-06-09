@@ -1,0 +1,39 @@
+veSupported>
+          <ioAllocationOption>
+            <_type>vim.StorageResourceManager.IOAllocationOption</_type>
+            <limitOption>
+              <_type>vim.option.LongOption</_type>
+              <defaultValue>-1</defaultValue>
+              <max>2147483647</max>
+              <min>16</min>
+            </limitOption>
+            <sharesOption>
+              <_type>vim.SharesOption</_type>
+              <defaultLevel>normal</defaultLevel>
+              <sharesOption>
+                <_type>vim.option.IntOption</_type>
+                <defaultValue>1000</defaultValue>
+                <max>4000</max>
+                <min>200</min>
+              </sharesOption>
+            </sharesOption>
+          </ioAllocationOption>
+          <plugAndPlay>false</plugAndPlay>
+          <type>vim.vm.device.VirtualDisk</type>
+        </e>
+        <e id="36">
+          <_type>vim.vm.device.VirtualSCSIPassthroughOption</_type>
+          <autoAssignController>
+            <_type>vim.option.BoolOption</_type>
+            <defaultValue>false</defaultValue>
+            <supported>false</supported>
+          </autoAssignController>
+          <backingOption>
+            <_length>1</_length>
+            <_type>vim.vm.device.VirtualDeviceOption.BackingOption[]</_type>
+            <e id="0">
+              <_type>vim.vm.device.VirtualSCSIPassthroughOption.DeviceBackingOption</_type>
+              <autoDetectAvailable>
+                <_type>vim.option.BoolOption</_type>
+                <defaultValue>false</defaultValue>
+             
