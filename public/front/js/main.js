@@ -119,7 +119,7 @@
 			updatePriceSlider($this , value);
 			//update cart
 			var rowId = $this.parent().find('input[type="number"]').data('rowid');
-			updateCart(rowId,value);
+			// updateCart(rowId,value);
 		})
 
 		up.on('click', function () {
@@ -130,7 +130,7 @@
 			updatePriceSlider($this , value);
 			//update cart
 			var rowId = $this.parent().find('input[type="number"]').data('rowid');
-			updateCart(rowId,value);
+			// updateCart(rowId,value);
 			}
 		})
 		if (value >= maxLimit || value < 1) {
