@@ -195,6 +195,7 @@
 						<!-- /store top filter -->
 
 						<!-- store products -->
+						@if($products)
 						<div class="row">
 							<!-- product -->
 							@foreach($products as $item)
@@ -203,15 +204,7 @@
 								</div>
 							@endforeach
 							<!-- /product -->
-
-							<!-- product -->
-							
-							<!-- /product -->
-
-							
 						</div>
-						<!-- /store products -->
-
 						<!-- store bottom filter -->
 						<div class="store-filter clearfix">
 							<span class="store-qty">Showing 20-100 products</span>
@@ -227,6 +220,18 @@
 							</ul> -->
 						</div>
 						<!-- /store bottom filter -->
+						@else
+							<div class="row">
+								<div class="result text-center">
+									<h3 class="text-primary">Không tìm thấy sản phẩm phù hợp</h3>
+									<br>
+									<img src="https://cdn2.cellphones.com.vn/640x/media/wysiwyg/not_found_mobile.jpeg" alt="">
+								</div>
+							</div>
+						@endif
+						<!-- /store products -->
+
+						
 					</div>
 					<!-- /STORE -->
 				</div>

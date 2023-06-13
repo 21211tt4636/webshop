@@ -50,9 +50,9 @@ class CheckoutController extends Controller
             // dd($product_sell_number -> sell_number);die();
             $product_sell_number->save();
         }
-        dd($order_detail->order_id);die();
+        // dd($order_detail->order_id);die();
         $products = OrderDetail::where('order_id',$order_detail->order_id )->get();
-        dd($products);die();
+         dd($products);die();
         //huy don hang sau khi dat hang thanh cong
         Cart::destroy(); 
         
